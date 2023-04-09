@@ -19,7 +19,7 @@ document.getElementById("enter").onclick = function(){
     
     guess++;
    if(numguess==random){
-    document.getElementById("prompt").innerHTML = `Yay! You got it after ${guess} guess/guesses<br><br>`+"The nuber is ";
+    document.getElementById("prompt").innerHTML = `Yay! You got it after ${guess} guess/guesses<br><br>`+"The number is ";
     document.getElementById("number").innerHTML = random;
     cat1.style.visibility = null;
     cat2.style.visibility = null;
